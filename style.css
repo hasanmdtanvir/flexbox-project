@@ -141,6 +141,10 @@ header {
     font-size: 1.6rem;
     color: #111111;
     transition: color 300ms ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
 }
 
 .logo:hover {
@@ -467,4 +471,140 @@ a.icon-block:hover::before {
     opacity: 1;
     top: 2px;
     left: 0;
+}
+
+/* contact section start  */
+.contact-segment {
+    /* border: 1px solid black; */
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.contact-card {
+    width: 33.333%;
+    /* height: 200px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+.contact-form {
+    width: calc(100% - 33.333%);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+.contact-card-content {
+    /* border: 1px solid green; */
+    /* height: 200px; */
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.contact-form-content {
+    /* border: 1px solid red; */
+    /* height: 200px; */
+    border-radius: 10px;
+}
+
+.contact-card-content h3,
+p {
+    margin-bottom: 20px;
+
+}
+
+.contact-card-content p {
+    color: #626567;
+}
+
+.contact-card-content .icon-box {
+    margin-top: 50px;
+}
+
+.contact-card-content .icon-block {
+    transition: transform 300ms ease;
+}
+
+.contact-card-content .icon-block:hover {
+    transform: translateY(-10px);
+}
+
+.form-content {
+    padding: 30px 30px;
+}
+
+
+.form-content label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+.form-content input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #b6b4b4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.form-content .phone-number {
+    margin-bottom: 20px;
+}
+
+.form-content textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #b6b4b4;
+    border-radius: 5px;
+}
+
+.form-content input:focus,
+.form-content textarea:focus {
+    border: 2px solid #FF014F;
+    outline: none;
+}
+
+.form-content a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FD014D;
+    font-weight: 600;
+}
+
+.form-content a i {
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+
+.logo-png {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #212428;
+}
+
+/* footer start  */
+footer div {
+    text-align: center;
+}
+
+footer div a {
+    letter-spacing: 2px;
+}
+
+footer div p {
+    margin-top: 20px;
+    color: #626567;
+    font-weight: 400;
+}
+
+footer .logo {
+    justify-content: center;
 }
